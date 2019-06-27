@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="resources/css/index.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="quiz-container">
+      <div id="question" class="quiz-question">QUESTION HERE</div>
+
+      <div class="quiz-answer-container">
+        <div class="row">
+          <div id="answer1" class="answer" onclick="checkAnswer(1)">Lorem ipsum dolor sit amet. 1</div>
+          <div id="answer2" class="answer" onclick="checkAnswer(2)">Lorem ipsum dolor sit amet. 2</div>
+        </div>
+        <div class="row">
+          <div id="answer3" class="answer" onclick="checkAnswer(3)">Lorem ipsum dolor sit amet.3</div>
+          <div id="answer4" class="answer" onclick="checkAnswer(4)">Lorem ipsum dolor sit amet. 4</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="./resources/js/client/index.js"></script>
+  <script>
+    // displayQuestion(quizIndex);
+    displayCategories();
+  </script>
+</body>
+
+</html>
